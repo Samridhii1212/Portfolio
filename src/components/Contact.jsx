@@ -19,35 +19,7 @@ const Contact = () => {
     setForm({ ...form, [name]: value });
   };
 
-  const handleSubmit = (e) => {
-    // e.preventDefault();
-    alert("submitted")
-    // setLoading(true);
-
-    // emailjs
-    //   .sendForm(
-    //     'service_dg8yzkp', // Your emailjs service ID
-    //     'template_ID', // Your emailjs template ID
-    //     e.target,
-    //     'user_Public_Key' // Your emailjs user public key
-    //   )
-    //   .then(
-    //     (result) => {
-    //       setLoading(false);
-    //       alert('Message sent successfully!');
-    //       setForm({
-    //         name: '',
-    //         email: '',
-    //         message: '',
-    //       });
-    //     },
-    //     (error) => {
-    //       setLoading(false);
-    //       console.error('Failed to send message:', error);
-    //       alert('Failed to send message. Please try again later.');
-    //     }
-    //   );
-  };
+  
 
   return (
     <div className="-mt-[8rem] xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
@@ -60,7 +32,6 @@ const Contact = () => {
         <form
          action='https://api.web3forms.com/submit'
          method="POST"
-          onSubmit={handleSubmit}
           className="mt-10 flex flex-col gap-6 font-poppins">
           <label className="flex flex-col">
             <span className="text-timberWolf font-medium mb-4">Your Name</span>
