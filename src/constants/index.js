@@ -33,7 +33,8 @@ import {
   foodie1,
   mongo1,
   exp1,
-  mysql
+  mysql,
+  cc
 
 } from '../assets';
 
@@ -127,8 +128,30 @@ const experiences = [
 ];
 
 const projects = [
-  {
+   {
     id: 'project-1',
+    name: 'Talk Point',
+    description: 'TalkPoint is a real-time chat application that enables seamless communication between users with instant messaging and real-time updates.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'mongodb',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image:cc,
+    repo: 'https://github.com/Samridhii1212/TalkPoint/tree/main',
+    demo: 'https://talkpoint.onrender.com/',
+  },
+  {
+    id: 'project-2',
     name: 'Tenzies Game',
     description: 'Tenzies is a fast-paced dice game where you roll ten dice and aim to get them all to show the same number. Keep the dice that match your target number and roll the rest until all ten dice match. It’s a fun mix of luck and strategy!',
     tags: [
@@ -149,31 +172,7 @@ const projects = [
     repo: 'https://github.com/Samridhii1212/Tenzies-Game',
     demo: 'https://tenzies-game-frontend.onrender.com/login',
   },
-  {
-    id: 'project-2',
-    name: 'InstantMeme Creator',
-    description:
-      'InstantMeme Creator is a web-based application designed to allow users to create customized memes easily. Leveraging the power of React JS, this tool provides a user-friendly interface for meme creation, allowing users to choose templates, customize text, and generate memes with ease.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: meme1,
-    repo: 'https://github.com/Samridhii1212/Instant-MemeCreator',
-    demo: 'https://instant-meme-creator-1ir1.vercel.app/',
-  },
-
-  {
+    {
     id: 'project-3',
     name: 'GitHubRepoViewer',
     description: `GitHubRepoViewer is a simple and intuitive web application that enables users to search for GitHub repositories by username. It displays the list of repositories along with details such as repository name and description.`,
@@ -197,6 +196,31 @@ const projects = [
   },
   {
     id: 'project-4',
+    name: 'InstantMeme Creator',
+    description:
+      'InstantMeme Creator is a web-based application designed to allow users to create customized memes easily. Leveraging the power of React JS, this tool provides a user-friendly interface for meme creation, allowing users to choose templates, customize text, and generate memes with ease.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'restapi',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'scss',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: meme1,
+    repo: 'https://github.com/Samridhii1212/Instant-MemeCreator',
+    demo: 'https://instant-meme-creator-1ir1.vercel.app/',
+  },
+
+
+  {
+    id: 'project-5',
     name: 'Foodie Express',
     description: 'Foodie Express is a modern food ordering platform designed to offer users a seamless experience when browsing and ordering from a variety of restaurants. The platform integrates real-time restaurant data via the Swiggy API and includes features such as state management for the shopping cart and user authentication.',
     tags: [
@@ -214,7 +238,7 @@ const projects = [
       },
     ],
     image: foodie1,
-    repo: 'https://github.com/Samridhii1212/Foodie-Express',
+    repo: 'https://github.com/Samridhii1212/Foodie-Express-Website',
     demo: 'https://foodie-express-puce.vercel.app/login',
   },
 

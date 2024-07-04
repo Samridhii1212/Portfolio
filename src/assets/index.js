@@ -50,6 +50,7 @@ import meme1 from './projects/meme1.png';
 import foodie1 from './projects/foodie1.png';
 
 import repo1 from './projects/repo1.png';
+import cc from './projects/cc.jpeg';
 
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
@@ -57,6 +58,7 @@ import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
+
 
 export {
   bwmap,
@@ -111,4 +113,6 @@ export {
   exp1,
   mongo1,
   mysql,
+  
+  cc
 };
